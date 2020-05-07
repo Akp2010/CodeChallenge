@@ -28,6 +28,6 @@ Feature: AutoTrader Basic Testing
 	   @Sanity3
 	    Scenario: BMW Search results verification and count
 	    Given I am in the Search Results page
-	  	Then I verify only BMW cars are in the results
+	  	Then I verify only "BMW" cars are in the results
 	   	And Log the total number of listings in the page
 	  	

@@ -6,11 +6,9 @@
       <class name="testRunner.runner">
         <methods>
           <include name="tearDown"/>
-          <include name="config"/>
           <include name="setUpClass"/>
           <include name="setUp"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="writeExtentReport"/>
+          <include name="runScenario"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- testRunner.runner -->
